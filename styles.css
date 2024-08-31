@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #968fff;
+    overflow: hidden;
+}
+
+/* Estilo para centrar la barra de navegación */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+/* Estilo de los items de la barra */
+.navbar ul li {
+    padding: 14px 20px;
+}
+
+/* Estilo de los enlaces */
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+}
+
+/* Efecto hover para los enlaces */
+.navbar ul li a:hover {
+    background-color: #a0a3e9;
+    color: rgb(171, 255, 206);
+}
